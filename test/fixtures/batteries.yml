@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mac_address: MyString
+  serial_number: MyString
+  last_contact: 2024-10-28 02:05:13
+  lock_update: 1
+  configurations: 
+
+two:
+  mac_address: MyString
+  serial_number: MyString
+  last_contact: 2024-10-28 02:05:13
+  lock_update: 1
+  configurations: 

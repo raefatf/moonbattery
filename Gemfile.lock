@@ -109,6 +109,8 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.7.4)
+    jwt (2.9.3)
+      base64
     kamal (2.2.2)
       activesupport (>= 7.0)
       base64 (~> 0.2)
@@ -173,6 +175,8 @@ GEM
     raabro (1.4.0)
     racc (1.8.1)
     rack (3.1.8)
+    rack-attack (6.7.0)
+      rack (>= 1.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -317,8 +321,10 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  jwt
   kamal
   puma (>= 5.0)
+  rack-attack
   rails (~> 8.0.0.rc1)
   rubocop-rails-omakase
   solid_cable
